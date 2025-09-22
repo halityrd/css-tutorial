@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Elements</title>
+    <style>
+        p::first-line {
+            font-weight: bold;
+            color: brown;
+            word-spacing: 3px;
+            letter-spacing: 1px;
+        }
+
+        p.about::first-line {
+            color: green;
+        }
+
+        p::first-letter {
+            font-size: 48px;
+        }
+
+        ::selection {
+            background-color: hotpink;
+        }
+
+        p::after {
+            content: '\261D';
+            font-size: 35px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Pseudo Elements  -->
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ab accusamus assumenda atque repudiandae fuga laudantium tenetur incidunt eaque impedit. Ad veritatis quas, odio sed accusamus quia explicabo delectus quisquam.
+        Laboriosam nemo est eligendi, sapiente error culpa, dignissimos quos praesentium itaque sequi reprehenderit blanditiis, numquam voluptas. Voluptate facilis quo laudantium neque consequuntur, ratione nesciunt similique, dolorum omnis aspernatur reiciendis consequatur.
+    </p>
+
+    <p class="about">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, dolore eius temporibus mollitia perspiciatis qui provident, fuga velit, repudiandae doloremque praesentium! Iusto reprehenderit ipsam tempora porro, quod fugit veniam quam.
+        Provident qui perferendis veniam, molestiae aperiam saepe ipsam optio error in architecto nulla obcaecati tempore accusamus totam suscipit facere pariatur sit? Cum expedita at voluptatum, vero consequuntur necessitatibus aut libero!
+    </p>
+</body>
+</html>

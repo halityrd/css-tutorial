@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Classes</title>
+    <style>
+         a {
+            border: 1px solid gray;
+            padding: 5px 8px;
+            display: inline-block;
+            text-decoration: none;
+            width: 60px;
+            text-align: center;
+         }
+
+         a:link {
+            color: red;
+         }
+
+         a:visited {
+            color: green;
+         } 
+
+         a:hover {
+            color: #fff;
+            background-color: yellow;
+         }
+
+         a:active {
+            color: #fff;
+            background-color: violet;
+         }
+
+         div:hover p {
+            display: block;
+         }
+
+         p {
+            display: none;
+         }
+    </style>
+</head>
+<body>
+    
+    <!-- Pseudo classes -->
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.udemy.com">Udemy</a>
+    <a href="https://www.imdb.com">IMDb</a>
+
+    <br><br>
+
+    <div>
+        Click Here!
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit culpa nisi dignissimos nam expedita! Aut hic, quas consectetur, quia asperiores officia cupiditate quasi veniam earum, ducimus nesciunt tempore provident doloremque!</p>
+    </div>
+</body>
+</html>
