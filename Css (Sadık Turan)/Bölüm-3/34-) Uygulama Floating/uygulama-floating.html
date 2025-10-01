@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Uygulama Floating</title>
+    <style>
+        * {
+            box-sizing: border-box;
+         }
+
+         h1 {
+            margin: 0
+         }
+
+         header, footer {
+            background-color: #8267BE;
+            color: #FFBD35;
+            padding: 15px;
+         }
+
+         .col {
+            float: left;
+            padding: 15px 15px 15px 0;
+         }
+
+         .menu {
+            width: 25%;
+         }
+
+         .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+         }
+
+         .menu li {
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: #502064;
+            color: #fff;
+         }
+
+         .menu li:hover {
+            cursor: pointer;
+            background-color: #8267BE;
+         }
+
+         .content {
+            width: 75%;
+         }
+
+         .clearfix::after {
+            content: "";
+            display: block;
+            clear: both;
+         }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h2>Header</h2>
+    </header>
+
+    <main class="clearfix">
+        <div class="menu col">
+            <ul>
+                <li>Html</li>
+                <li>Css</li>
+                <li>Javascript</li>
+            </ul>
+        </div>
+
+        <div class="content col">
+            <h1>Komple Web Geliştirme Eğitimi</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus suscipit unde itaque eius voluptas repellendus, natus modi officia error assumenda alias molestias laborum corrupti, cupiditate recusandae facere esse ipsum voluptatibus.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dolor ratione nemo dignissimos nesciunt reiciendis at doloremque vel repudiandae totam autem, optio aperiam ut adipisci maiores velit eius earum laboriosam.
+            </p>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+
+</body>
+</html>

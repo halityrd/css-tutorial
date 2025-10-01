@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sticky Positioning</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            height: 2000px;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .box {
+            padding: 10px;
+            border: 5px solid #6D5B95;
+            margin-bottom: 10px;
+        }
+
+        .navbar {
+            background: #FEB236;
+        }
+
+        .content {
+            background: #D64161;
+            /* position: fixed;
+            top: 0; */
+        }
+
+        .footer {
+            background: #FF7B25;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos sit quo aspernatur totam dicta, reiciendis voluptate consectetur nemo facilis minus nostrum culpa, beatae in nulla, corporis quod voluptates ex libero.
+        Minus ut recusandae, quo sint expedita eius illo laboriosam fuga asperiores commodi quam, voluptas atque distinctio modi autem voluptatem eveniet, exercitationem consectetur fugiat non? Dolore sapiente hic recusandae eaque fugiat!
+        Error rem ducimus sapiente magnam esse pariatur, maxime exercitationem, maiores sint odio minima odit ab nobis quidem. Ullam illum accusamus quibusdam reprehenderit reiciendis quidem hic dolorem sit voluptates? Maiores, veniam.
+        <h2 class="sticky" style="background: #D64161;">Lorem ipsum dolor sit amet.</h2>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam est, nostrum reiciendis saepe amet autem fugiat? In quibusdam, quis tenetur voluptatibus corporis sit, atque repellat mollitia temporibus, ipsam omnis corrupti!
+        Architecto beatae modi ab sed nemo sapiente necessitatibus ipsum excepturi esse omnis, autem eveniet quod est sint. Officiis magni at atque pariatur reprehenderit qui quis, ut aspernatur modi minus ipsam.
+        Nulla, eos? Recusandae perspiciatis officiis dolor optio facilis dolore suscipit, quia ipsa eaque ab at dolores aliquam unde voluptates iusto quas delectus consectetur nulla sint voluptatum, perferendis soluta. Iure, esse.
+    </p>
+    
+    <div id="container">
+        <div class="box navbar">Navbar</div>
+        <div class="box content">Content</div>
+        <div class="box footer">Footer</div>
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, laudantium odit error totam nobis excepturi tempore, laborum mollitia maxime consequuntur, iusto modi obcaecati nesciunt. Incidunt necessitatibus doloribus quia amet accusamus.
+        <h2 class="sticky" style="background: #FEB236;">Lorem ipsum dolor sit amet.</h2>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt sunt explicabo totam, reprehenderit consequatur cumque. Delectus saepe voluptatum exercitationem fugit eum? Nam maiores rerum soluta inventore accusantium facere. Natus, ea?
+        Accusantium error facilis, amet placeat expedita ad laborum tenetur molestias explicabo perspiciatis ullam ea, voluptatibus voluptate? Aperiam aliquid vitae repellendus assumenda possimus. Accusantium nemo voluptas numquam tempora laborum nam incidunt.
+        Ipsam animi tenetur iusto incidunt, non accusantium debitis natus saepe repellendus ipsum optio labore totam eos, quam ut consequuntur. Consectetur voluptatum repellat in repellendus dignissimos cum sapiente earum inventore debitis.
+        Similique saepe magni consequatur voluptatum vero amet facilis soluta sint sequi excepturi et ad esse quam ducimus voluptatibus enim quae temporibus corrupti, aliquam laudantium expedita. Repudiandae nemo pariatur eveniet veniam!
+        Quas nihil temporibus, recusandae voluptatem praesentium sunt fuga quidem itaque molestias enim error ut rem fugit ratione dolorem! Soluta numquam totam excepturi dolores, libero aliquam. Officia sunt ut nulla consequuntur?
+    </p>
+
+</body>
+</html>
